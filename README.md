@@ -1,0 +1,1 @@
+This is Lu Qi's personal portfolio website. It is built with React (Next.js) and deployed on Vercel.

@@ -1,0 +1,32 @@
+
+  
+  .a_highlight {
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+  }
+  
+  .highlight {
+    position: relative;
+  }
+  .highlight:after {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    right: -1px;
+    left: -1px;
+    height: 3px;
+    z-index: -1;
+    background-color: #b36fee;
+    transform: scaleX(0);
+    visibility: hidden;
+    transform-origin: right;
+    transition: 0.4s transform cubic-bezier(0, 0.01, 0, 1), visibility 0s 0.4s;
+  }
+  .highlight:hover:after {
+    transform: scaleX(1);
+    visibility: visible;
+    transform-origin: left;
+    transition: 0.2s transform cubic-bezier(0, 0.01, 0, 1);
+  }
