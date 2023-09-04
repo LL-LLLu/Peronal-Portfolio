@@ -12,6 +12,7 @@ import testPortfolio from '@/public/portfolio_test.png'
 import tutorKing from '@/public/tutorKing.png'
 import equiteach from '@/public/equiteach.png'
 import bookstore from '@/public/bookstore.png'
+import personal_blog from '@/public/personal_blog.png'
 
 export const links = [
   {
@@ -70,9 +71,16 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'Equiteach',
-    description:'',
+    description:"A mobile app that allows users to find their matching tutors and getting companies' investment for helping those who can not pay for cost of tutors. It uses React Native, AWS, DynanoDB, Python.",
     tags: ["React", "AWS", "Tailwind", "ESG dashboard", "Python", "DynamoDB", "JavaScript", "React Native"],
     imageUrl: equiteach,
+  },
+  {
+    title: "Personal Blog",
+    description:"A personal blog that uses Next.js, Tailwind, Sanity and Vercel. Allow users to sign in and post their comments on the blog.",
+    tags: [
+      "Next.js", "Sanity", "Tailwind", "Vercel", "JavaScript", "TypeScript"],
+    imageUrl: personal_blog,
   },
   {
     title: "Between the Lines",
