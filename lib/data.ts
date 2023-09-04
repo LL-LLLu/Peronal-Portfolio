@@ -12,7 +12,7 @@ import testPortfolio from '@/public/portfolio_test.png'
 import tutorKing from '@/public/tutorKing.png'
 import equiteach from '@/public/equiteach.png'
 import bookstore from '@/public/bookstore.png'
-import personal_blog from '@/public/personal_blog.png'
+import personal_blog from '../public/personal_blog.png'
 
 export const links = [
   {
