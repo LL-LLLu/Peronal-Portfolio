@@ -13,6 +13,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Button_Fade from "@/components/Button_Fade"
 import self_pic from '/public/selfPic.png'
 
+
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -78,7 +79,7 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a> */}
 
-        <Button_Fade className="dark:text-white "  text='Resume' href="/Lu_Qi's Resume.pdf" />
+        <Button_Fade className="dark:text-white "  text='Resume' href="/Resume.pdf" />
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"

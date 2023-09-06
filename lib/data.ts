@@ -79,14 +79,14 @@ export const projectsData = [
     title: "Personal Blog",
     description:"A personal blog that uses Next.js, Tailwind, Sanity and Vercel. Allow users to sign in and post their comments on the blog.",
     tags: [
-      "Next.js", "Sanity", "Tailwind", "Vercel", "JavaScript", "TypeScript"],
+      "Next.js", "Sanity", "Tailwind", "Vercel", "JavaScript", "TypeScript", "Framer Motion", "OAuth"],
     imageUrl: personal_blog,
   },
   {
     title: "Between the Lines",
     description:
-      "A website that uses google API to",
-    tags: ["Angular", "Tailwind", "Google API", "MongoDB"],
+      "An online platform that focus on providing a safe and comfortable space for people to purchase books. It uses Angular, Tailwind, Firebase and MongoDB.",
+    tags: ["Angular", "Tailwind", "Google API", "MongoDB", "Firebase", "TypeScript"],
     imageUrl: bookstore,
   },
   {
@@ -107,7 +107,7 @@ export const projectsData = [
     title: "Discord Bot",
     description:
     "A Discord bot that use OpenAI API to generate text. It can answer questions based on a given context.",
-    tags: ["OpenAI", "Discord API"],
+    tags: ["OpenAI", "Discord API", "Python"],
     imageUrl: discordBot,
   },
   {
