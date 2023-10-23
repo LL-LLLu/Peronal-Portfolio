@@ -79,7 +79,7 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a> */}
 
-        <Button_Fade className="dark:text-white "  text='Resume' href="/Resume.pdf" />
+        <Button_Fade className="dark:text-white "  text='Resume' href="/Resume_Lu_Qi.pdf" />
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"

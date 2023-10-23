@@ -70,12 +70,16 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    link: "https://devpost.com/software/equiteach",
+    shown: true,
     title: 'Equiteach',
     description:"A mobile app that allows users to find their matching tutors and getting companies' investment for helping those who can not pay for cost of tutors. It uses React Native, AWS, DynanoDB, Python.",
     tags: ["React", "AWS", "Tailwind", "ESG dashboard", "Python", "DynamoDB", "JavaScript", "React Native"],
     imageUrl: equiteach,
   },
   {
+    link: "https://peronal-blog-eta.vercel.app/",
+    shown: true,
     title: "Personal Blog",
     description:"A personal blog that uses Next.js, Tailwind, Sanity and Vercel. Allow users to sign in and post their comments on the blog.",
     tags: [
@@ -83,6 +87,8 @@ export const projectsData = [
     imageUrl: personal_blog,
   },
   {
+    link: "https://btl-books.com/",
+    shown: true,
     title: "Between the Lines",
     description:
       "An online platform that focus on providing a safe and comfortable space for people to purchase books. It uses Angular, Tailwind, Firebase and MongoDB.",
@@ -90,6 +96,8 @@ export const projectsData = [
     imageUrl: bookstore,
   },
   {
+    link: "#",
+    shown: false,
     title: "Tutor King",
     description:
       'An online tutoring platform that connects students with tutors. It uses react.js, Tailwind, MongoDB and Prisma.',
@@ -97,6 +105,8 @@ export const projectsData = [
     imageUrl: tutorKing,
   },
   {
+    link: "#",
+    shown: false,
     title: "Pin You Gou",
     description:
     'An e-commerce website that sells products from China. It uses Next.js, Tailwind, MongoDB and Redux.',
@@ -104,6 +114,8 @@ export const projectsData = [
     imageUrl: pinyougou,
   },
   {
+    link: "#",
+    shown: false,
     title: "Discord Bot",
     description:
     "A Discord bot that use OpenAI API to generate text. It can answer questions based on a given context.",
@@ -111,6 +123,8 @@ export const projectsData = [
     imageUrl: discordBot,
   },
   {
+    link: "#",
+    shown: false,
     title: "Text Portfolio",
     description:
       "A portfolio website that uses Framer Motion to animate the text. It's built with Next.js and Tailwind for testing",
