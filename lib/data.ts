@@ -155,4 +155,10 @@ export const skillsData = [
   "AWS",
   "DynamoDB",
   "Prisma",
+  "Azure Cloud",
+  "CI/CD",
+  "LabVIEW",
+  "Spring Boot",
+  "MySQL",
+  
 ] as const;

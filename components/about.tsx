@@ -25,15 +25,14 @@ export default function About() {
 
         <div >
           <p className="my-3">
-            Graduating from {" "} <span className="a_highlight highlight font-medium text-indigo-400 dark:text-red-500">University of Texas at Dallas</span> with a degree of {" "}
-            <span className="a_highlight highlight font-medium text-sky-400 dark:text-orange-500">Computer Science</span>, I have been a passionate developer in
-            many different areas such as algorithms and full-stack web development. {" "}
-            I have participated in many competitions and done many projects through out my college years
-            and am in love with the process of problem solving. {" "}
-            <span className="font-medium text-blue-300 dark:text-yellow-400 a_highlight highlight ">Software Development</span> and{" "}
-            <span className="font-medium text-red-300 dark:text-green-400 a_highlight highlight ">Artificial Intellgence</span>
-            {' '}are two field that i like the most, while one can use the tools I learned to build functional projects, the another
-            give me a glance of the future world. 
+            <span className="a_highlight highlight font-bold text-indigo-400 dark:text-red-500">University of Texas at Dallas</span> graduate with a degree of {" "}
+            <span className="a_highlight highlight font-bold text-sky-400 dark:text-orange-500">Computer Science</span>, I have had
+            {" "} <span className="font-bold text-red-300 dark:text-green-400 a_highlight highlight ">demonstrable track record</span>  of driving results and 
+            {" "} <span className="font-bold text-blue-300 dark:text-yellow-400 a_highlight highlight ">fostering collaborative </span>{" "}
+            team work to achieve shared objectives. {" "}
+            Skilled in a variety of programming languages & database software such as 
+            {" "} <span className=" font-bold text-cyan-300 dark:text-blue-500 a_highlight highlight "> Java, Python, Spring Boot, React, and SQL.</span> {" "}
+            Renowned among peers for unwavering dedication and a profound passion for achieving excellence.
           </p>
         </div>
 
